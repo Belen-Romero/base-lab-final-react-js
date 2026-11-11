@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Remera clásica",
+    "description": "Remera básica de algodón en color negro, de corte clásico y cuello redondo. Una prenda versátil y cómoda para uso diario.",
+    "price": 18000,
+    "image": "/img/clothing/remera-negra.jpg",
+    "category": "clothing"
+  },
+  {
+    "id": 2,
+    "name": "Buzo urbano",
+    "description": "Buzo con capucha en color gris, confeccionado en tejido suave y abrigado. Ideal para un look casual y cómodo.",
+    "price": 35000,
+    "image": "/img/clothing/buzo-canguro.jpg",
+    "category": "clothing"
+  },
+  {
+    "id": 3,
+    "name": "Campera liviana",
+    "description": "Campera de jean azul de estilo urbano y corte relajado. Una opción liviana para complementar looks informales.",
+    "price": 42000,
+    "image": "/img/clothing/campera-jean.jpg",
+    "category": "clothing"
+  }
+]
