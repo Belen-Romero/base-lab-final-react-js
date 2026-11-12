@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { ItemList } from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
-import { getProducts } from "../../services/productsService";
 
 export const ItemListContainer = () => {
   const { category } = useParams();
@@ -10,7 +9,8 @@ export const ItemListContainer = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    getProducts()
+    fetch("/data/products.json")
+      .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((error) => setErrors(error.message))
       .finally(() => setLoading(false));
